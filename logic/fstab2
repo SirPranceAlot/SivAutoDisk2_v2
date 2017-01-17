@@ -1,0 +1,27 @@
+
+#
+# /etc/fstab
+# Created by anaconda on Sun Mar 17 12:36:15 2013
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+UUID=85af6aa3-1076-4c2b-813b-45b313323c62 /                       ext3    defaults        1 1
+UUID=c699b120-82a5-4cba-a547-4286e721299f /boot                   ext3    defaults        1 2
+UUID=99da4c3b-0405-4287-98cb-5d732fef0d90 /hadoop1                ext4    rw,noatime      1 2
+UUID=e19c6a82-8a47-4d3d-9ea4-90c5e9e183c7 /hadoop10               ext4    rw,noatime      1 2
+UUID=44b00c4d-fcf6-4b71-acf2-f5c4f99d5eaa /hadoop11               ext4    rw,noatime      1 2
+UUID=98f7321c-4218-4bba-826f-6a54bfd61f95 /hadoop12               ext4    rw,noatime      1 2
+UUID=a894eceb-a610-4f1f-b453-ce8239998523 /hadoop2                ext4    rw,noatime      1 2
+UUID=71ec35a2-6af2-4bdb-a077-fd5c8c95d84b /hadoop3                ext4    rw,noatime      1 2
+UUID=12d66b3c-de66-4f39-bf04-3ec05d0ac8fe /hadoop4                ext4    rw,noatime      1 2
+UUID=db90fb7f-afe2-4cfa-b841-3b9bc7a45dae /hadoop5                ext4    rw,noatime      1 2
+UUID=13d5d25b-acc3-4f97-8739-f557b69aa79f /hadoop6                ext4    rw,noatime      1 2
+UUID=416dc007-3537-4e3a-bc14-d72bdf95d6e3 /hadoop7                ext4    rw,noatime      1 2
+UUID=c1e116a9-7342-49b3-ac46-67ff8288f2f8 /hadoop8                ext4    rw,noatime      1 2
+UUID=ea3db89c-304b-494f-9cb2-ff6191f15267  /hadoop9                ext4    rw,noatime      1 2
+UUID=04e876fb-4271-41ae-b2a9-238e82b31cb5 swap                    swap    defaults        0 0
+tmpfs                   /dev/shm                tmpfs   defaults        0 0
+devpts                  /dev/pts                devpts  gid=5,mode=620  0 0
+sysfs                   /sys                    sysfs   defaults        0 0
+proc                    /proc                   proc    defaults        0 0

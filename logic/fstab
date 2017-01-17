@@ -1,0 +1,27 @@
+
+#
+# /etc/fstab
+# Created by anaconda on Wed Jan  7 14:13:27 2015
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+UUID=fffc6fe0-7a49-4d5a-94c9-6a236d0e0cc3 /                       ext4    defaults        1 1
+UUID=b17dc763-76ec-4429-8385-3915e2d10fed /boot                   ext3    defaults        1 2
+UUID=5dc6930a-3e8e-4f93-9346-48089df10f10 /hadoop1                ext4    rw,noatime,nofail 1 2
+tmpfs                   /dev/shm                tmpfs   defaults        0 0
+devpts                  /dev/pts                devpts  gid=5,mode=620  0 0
+sysfs                   /sys                    sysfs   defaults        0 0
+proc                    /proc                   proc    defaults        0 0
+/var/swap      swap                    swap    defaults        0 0
+LABEL=/hadoop2 /hadoop2 ext4 rw,noatime,nofail 1 2
+LABEL=/hadoop3 /hadoop3 ext4 rw,noatime,nofail 1 2
+LABEL=/hadoop4 /hadoop4 ext4 rw,noatime,nofail 1 2
+LABEL=/hadoop5 /hadoop5 ext4 rw,noatime,nofail 1 2
+LABEL=/hadoop6 /hadoop6 ext4 rw,noatime,nofail 1 2
+LABEL=/hadoop7 /hadoop7 ext4 rw,noatime,nofail 1 2
+LABEL=/hadoop8 /hadoop8 ext4 rw,noatime,nofail 1 2
+LABEL=/hadoop9 /hadoop9 ext4 rw,noatime,nofail 1 2
+LABEL=/hadoop10 /hadoop10 ext4 rw,noatime,nofail 1 2
+LABEL=/hadoop11 /hadoop11 ext4 rw,noatime,nofail 1 2
+LABEL=/hadoop12 /hadoop12 ext4 rw,noatime,nofail 1 2
