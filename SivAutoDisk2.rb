@@ -2,6 +2,7 @@
 #
 #SivAutoDisk2 main controller
 
+
 #Gets the current directory to be added to $LOAD_PATH
 #need this in order to import classes from the logic folder
 currentDirectory = `pwd`

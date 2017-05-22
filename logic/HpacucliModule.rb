@@ -40,7 +40,7 @@ class HpacucliModule < Module
 	#get hp failed drive number format and store in @failedHpDriveNames
 	#get failed drive numbers and store it in @failedPhysicalDrives array
 	@cleanFailedPhysicalDrives.each do |d|
-	    if d =~ /\w+ (\S+) \(port 1I:box 1:bay (\d+), \S* GB\): (\w+)/
+	    if d =~ /\w+ (\S+) \(port 1I:box 1:bay (\d+), \S* \S*\): (\w+)/
                       
 		if $3 == "Failed" || $3 == "Predictive"
 		   @failedHpDriveAndStatus[:"#{$2}"] = $3
@@ -81,6 +81,7 @@ class HpacucliModule < Module
     #display failed drive for use with menu
     def displayFailedDrives
 	self.checkFailedDrives
+  puts @failedHpDriveAndStatus
 	if @failedHpDriveAndStatus.length > 0 then
            @failedHpDriveAndStatus.each do |drive, status|
 	      @displayOutput.push("Physical Drive: #{drive} Status: #{status}")
